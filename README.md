@@ -1,5 +1,8 @@
 # PNEUMONIA-DETECTION-USING-DEEP-LEARNING-
-![image](https://github.com/FridaOyucho/PNEUMONIA-DETECTION-USING-DEEP-LEARNING-/assets/63707906/4462c807-7c8a-4bef-a30e-53e7db629133)
+
+![image](https://github.com/FridaOyucho/PNEUMONIA-DETECTION-USING-DEEP-LEARNING-/assets/63707906/c2389f52-a607-4680-8266-1547a50f82c6)
+
+
 
 Authors: Jane Martha, Najma Abdi, Brian Ochieng, Eunice Ngunjiri, Jubilant Mutuku, Frida Oyucho
 
@@ -7,16 +10,21 @@ Authors: Jane Martha, Najma Abdi, Brian Ochieng, Eunice Ngunjiri, Jubilant Mutuk
 The project focuses on leveraging a dataset of chest X-ray images to develop machine learning models capable of accurately diagnosing pneumonia. The dataset sourced from Kaggle, comprises of images classified into two categories: pneu,onia and normal. This project aims to build and optimize convolutional neural network(CNN) models to achieve high diagnostic accuracy.
 
 ## Business problem
-![image](https://github.com/FridaOyucho/PNEUMONIA-DETECTION-USING-DEEP-LEARNING-/assets/63707906/ebf06d56-b279-4b41-9507-9766162a0f71)
-Pneumonia is a life-threatening infection of the lungs that results in millions of hospitalizations and deaths worldwide each year. Early and accurate diagnosis is critical for effective treatment and better patient outcomes. Chest X-ray imaging is the most commonly used diagnostic tool for pneumonia, but interpreting these images can be challenging and requires significant expertise. In many parts of the world, especially in resource-limited settings, there is a shortage of trained radiologists, which can delay diagnosis and treatment.
+![image](https://github.com/FridaOyucho/PNEUMONIA-DETECTION-USING-DEEP-LEARNING-/assets/63707906/43285e44-bee3-46a1-97fa-f120bad3c87b)
+
+
+
+Early detection and treatment of pneumonia are essential for avoiding complications and enhancing clinical results.
+Chest X-rays are a frequently used imaging modality for diagnosing pneumonia. Healthcare professionals, patients, hospitals,
+researchers and government agencies stand to benefit from these advancements, using the advanced technology models to deepen disease understanding and ensure regulatory compliance.
 
 ## Data Understanding
 Source: Kaggle's Chest X-Ray Images (Pneumonia) dataset. Structure: The dataset is organized into three primary directories: train: Contains training images categorized into 'PNEUMONIA' and 'NORMAL'. val: Contains validation images for model tuning and performance evaluation. test: Contains test images for final model evaluation.
 
 ## Objectives 
-The objective of this project is to leverage deep learning techniques to develop an automated system capable of accurately diagnosing pneumonia from chest X-ray images. This system aims to:
-
-Provide reliable diagnostic assistance to healthcare professionals. Reduce the diagnostic workload in hospitals and clinics. Improve diagnostic accuracy and speed, especially in areas with limited access to radiologists.
+Traditionally, diagnosing pneumonia requires time-consuming physical examinations and lab tests,
+often necessitating multiple doctor visits. We aim to develop a deep learning model capable of
+accurately detecting pneumonia from chest x-ray images
 
 ## Methodology
 Data modelling was based on clients tested for pneumonia with Xray test results as either normal or Pneumonia 
@@ -34,14 +42,14 @@ Data modelling was based on clients tested for pneumonia with Xray test results 
   -  ResNet50V2 Model
 
 ## Results
-![image](https://github.com/FridaOyucho/PNEUMONIA-DETECTION-USING-DEEP-LEARNING-/assets/63707906/99ca9913-6e7d-40d9-aa51-4b5cb85ff665)
+![image](https://github.com/FridaOyucho/PNEUMONIA-DETECTION-USING-DEEP-LEARNING-/assets/63707906/da71e7ff-6508-41ca-b29d-f00593233778)
+
 
 We visualzed the data from the three datasets to check for class imbalance. From the barchart, the data was highly imbalanced.
 
 Modelling:
-![image](https://github.com/FridaOyucho/PNEUMONIA-DETECTION-USING-DEEP-LEARNING-/assets/63707906/038c745d-0324-445c-8f3f-105795f4f6f2)
+![image](https://github.com/FridaOyucho/PNEUMONIA-DETECTION-USING-DEEP-LEARNING-/assets/63707906/398f5224-8eff-4763-9bc9-a0f812882ca7)
 
-![image](https://github.com/FridaOyucho/PNEUMONIA-DETECTION-USING-DEEP-LEARNING-/assets/63707906/db7f60db-9f37-490c-9479-121c2bd31381)
 
 Duration:
   -  Baseline Model took 2hrs 42mins 18secs
@@ -50,7 +58,8 @@ Duration:
   -  ResNET59V2 model: 1hr 30mins
 
 Model Comparison:
-![image](https://github.com/FridaOyucho/PNEUMONIA-DETECTION-USING-DEEP-LEARNING-/assets/63707906/045de25a-82db-4cfc-bc7e-0dfb3d9e149e)
+![image](https://github.com/FridaOyucho/PNEUMONIA-DETECTION-USING-DEEP-LEARNING-/assets/63707906/8c80708c-67d1-4268-bce3-2486d2d05fc9)
+
 
 ## Observations:
 We observed that execution time decreases each time a new model is executed and the accuracy becomes better each time hence boosting performance.
